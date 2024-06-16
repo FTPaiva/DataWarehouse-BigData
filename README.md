@@ -7,3 +7,8 @@ Este repositório contém os scripts do trabalho de Data Warehouse da disciplina
 - Frederico Lisbôa DRE: 120059054
 - Laura Daflon DRE: 120053993
 - Felipe Paiva DRE: 120017769
+
+## Arquivos
+- A pasta [esquemas originais](scripts/esquemas%20originais) contém os esquemas dos bancos de dados criados por cada um dos grupos (sendo o nosso o banco 1).
+- A pasta [relatorios](scripts/relatorios) contém os scripts de geração dos relatórios e da matriz de percentuais de movimentação entre pátios.
+- Os demais scripts referentes a criação do stage, extração ETL, transformação ETL, carga de tabelas e construção do esquema dimensional estrela estão presentes na pasta [scripts](scripts).
