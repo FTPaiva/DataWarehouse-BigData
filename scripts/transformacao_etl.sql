@@ -1,3 +1,12 @@
+/*
+GRUPO:
+Antonny Silva DRE: 120031917
+Bernardo Cunha DRE: 120036446
+Frederico Lisbôa DRE: 120059054
+Laura Daflon DRE: 120053993
+Felipe Paiva DRE: 120017769
+*/
+
 -- Transformação e integração dos dados dos clientes
 INSERT INTO DimCliente (ClienteID, Nome, Tipo, CNPJ_CPF, Endereco, Telefone, Email, CNH, Validade_CNH)
 SELECT DISTINCT ClienteID, Nome, Tipo, CNPJ_CPF, Endereco, Telefone, Email, CNH, Validade_CNH

@@ -1,3 +1,12 @@
+/*
+GRUPO:
+Antonny Silva DRE: 120031917
+Bernardo Cunha DRE: 120036446
+Frederico Lisbôa DRE: 120059054
+Laura Daflon DRE: 120053993
+Felipe Paiva DRE: 120017769
+*/
+
 -- Extração dos dados do Banco 1 para a área de stage
 INSERT INTO Stage.Cliente (ClienteID, Nome, Tipo, CNPJ_CPF, Endereco, Telefone, Email, CNH, Validade_CNH)
 SELECT ID_Cliente, Nome, Tipo_Cliente, Documento, CONCAT(Rua, ', ', Numero, ' ', Bairro, ', ', Cidade, ' - ', Estado), Telefone, Email, CNH, Data_Validade_CNH

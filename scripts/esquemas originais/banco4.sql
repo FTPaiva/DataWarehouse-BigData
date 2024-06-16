@@ -1,3 +1,12 @@
+/*
+GRUPO:
+Antonny Silva DRE: 120031917
+Bernardo Cunha DRE: 120036446
+Frederico Lisbôa DRE: 120059054
+Laura Daflon DRE: 120053993
+Felipe Paiva DRE: 120017769
+*/
+
 -- Tabela de Clientes
 CREATE TABLE Clientes (
 ID INT PRIMARY KEY,
